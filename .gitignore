@@ -1,0 +1,10 @@
+# python data hidden files
+.ipynb_checkpoints
+__pycache__
+
+# vs code files
+.DS_Store
+
+# password files
+config.py
+api_keys.py
