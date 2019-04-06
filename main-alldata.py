@@ -164,9 +164,7 @@ zillow_info_df.head()
 
 
 # CHANGE COLUMN NAME
-# zillow_info_df = zillow_info_df.rename(columns={0:"Zillow ID", 1:"Tax"})
-zillow_info_df = zillow_info_df.rename(columns={0:"Zillow ID",1:"Tax",2:"Tax_Year",3:"Home Type",4:"Home Size",5:"Bathrooms",6:"Bedrooms",7:"Last Sold Date",8:"Last Sold Price",9: "Zestimate Amount",10:"Zestimate Date",11:"Zestimate Value Change"})
-#df = df.rename(columns={'oldName1': 'newName1', 'oldName2': 'newName2'})
+zillow_info_df = zillow_info_df.rename(columns={0:"Zillow ID",1:"Tax",2:"Tax_Year",3:"Home Type",4:"Home Size",5:"Bathrooms",6:"Bedrooms",7:"Last Sold",8:"Sold Price",9: "Estimated Value",10:"Estimated Date",11:"Estimated Value Change"})
 zillow_info_df
 
 
