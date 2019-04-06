@@ -8,3 +8,7 @@ __pycache__
 # password files
 config.py
 api_keys.py
+
+# Other files
+test_script.py
+
